@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+.movie-content{
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 21.34vw;
+}
+.movie-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11.3vw;
+    margin: auto;
+}
+
+.movie-header .location {
+    display: flex;
+    align-items: center;
+    font-size: 3.9vw;
+    color: #fff;
+}
+
+.movie-header .location img {
+    width: 2.4vw;
+    height: 1.5vw;
+    margin-left: .7vw;
+}
+.movie-header .classify-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38%;
+    font-size: 3.7333vw;
+}
+.movie-header .classify-nav a {
+    color: #fff;
+}
+.movie-header .classify-nav .active {
+    color: #f73171;
+}
+.movie-header .search-box img {
+    width: 4.5vw;
+    height: 4.8vw;
+}
+.movie-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vw;
+    margin: auto;
+    background-color: #454545;
+}
+.movie-nav .data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+
+}
+.movie-nav .data img {
+    width: 4.4vw;
+    height: 4.1vw;
+}
+.movie-nav .data  span {
+    font-size: 3.7333vw;
+    color: #ffffff;
+}
+.movie-nav .data p {
+    font-size: 2.9333vw;
+    color: #fff;
+}
+
+.movie-nav .market {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%; 
+}
+.movie-nav .market span {
+    font-size: 3.7333vw;
+    color: #ffffff;
+}
+.movie-nav .market p {
+    font-size: 3.7333vw;
+    color: #f73171;
+}
+.movie-nav .market img {
+    width: 1.3vw;
+    height: 1.7vw;
+}
+
+.movie-list {
+    width: 100%;
+    margin: auto;
+}
+.movie-list ul {
+    margin: 0;
+    padding: 0;
+}
+.movie-list .list-main {
+    display: flex;    
+    width: 100%;
+    height: 33.3vw;
+    margin-top: 2.6667vw;
+    /* 给购买按钮定位 */
+    position: relative;
+
+}
+.movie-list .list-main .main-img {
+    width: 24vw;
+    height: 100%;
+}
+.movie-list .list-main .main-img img {
+    width: 100%;
+    height: 100%;
+}
+.movie-list .list-main .main-info {
+    margin-left: 2.6667vw;
+}
+.movie-list .list-main .main-info h5 {
+    font-size: 3.4667vw;
+    color: #fff;
+    /* margin-top: 2vw; */
+}
+.movie-list .list-main .main-info p {
+    font-size: 2.6667vw;
+    color: #808080;
+}
+
+.movie-list .list-main .main-info .main-actor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 1vw; */
+}
+
+.movie-list .list-main .main-info .main-label {
+    display: flex;
+    margin-top: 1.6vw;
+
+}
+.movie-list .list-main .main-info .main-label p {
+    background-color:#f73171;
+    font-size: 2.7vw;
+    border-radius: 2.7vw;
+    padding: 0 2.7vw;
+    color: #fff;
+    margin-left: 1.6vw;
+}
+.movie-list .list-main .main-info .main-label p:first-child {
+    margin-left: 0;
+}
+
+.movie-list .list-main .main-info .main-star {
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.movie-list .list-main .main-info .main-star img {
+    width: 2.9vw;
+    height: 2.9vw;
+    margin-left: 1.6vw;
+}
+.movie-list .list-main .main-info .main-star img:first-child {
+    margin-left: 0;
+}
+
+.movie-list .list-main .main-info .main-star p {
+    color: #f73171;
+    margin-left: 2vw;
+}
+.movie-list .list-main .buy-btn {
+    position: absolute;
+    bottom: 2vw;
+    right: 2.7vw;
+    width: 14.7vw;
+    height: 8vw;
+    line-height: 8vw;
+    background-color: #38c566;
+    color: #fff;
+    font-size: 3.7vw;
+    text-align: center;
+}
+
+
+.footer a:nth-child(2) p{
+    color: #f73171;
+}

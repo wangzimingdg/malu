@@ -1,0 +1,175 @@
+.footer {
+    width: 100vw;
+    height: 14.7vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .footer a {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .footer a img {
+    width: 4.3vw;
+    height: 4.3vw;
+  }
+  .footer a p {
+    font-size: 2.7vw;
+    margin-top: 1.6vw;
+  }
+  .select-time {
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 18.7vw;
+  }
+  .select-time .more-icon {
+    width: 5.6vw;
+    height: 1.3vw;
+    margin-left: 1.3vw;
+  }
+  .select-time header {
+    width: calc(100% - 5.3vw);
+    height: 12vw;
+    margin: auto;
+  }
+  .date-nav {
+    overflow: auto;
+    color: #fff;
+    font-size: 3.7vw;
+    border-top: 1px solid #302e2e;
+  }
+  .date-nav div {
+    width: 133.3vw;
+  }
+  .date-nav p {
+    width: 21.3vw;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+  }
+  .nav-active {
+    color: #f73171;
+    position: relative;
+  }
+  .nav-active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1.3vw;
+    width: 17.3vw;
+    height: 0.8vw;
+    background-color: #f73171;
+    border-radius: 1.3vw;
+  }
+  .cinema-nav {
+    width: 100%;
+    height: 8vw;
+  }
+  .cinema-nav a {
+    color: #fff;
+  }
+  .cinema-nav a img {
+    width: 1.7vw;
+    height: 1.2vw;
+    margin-left: 1.6vw;
+  }
+  .ad-content {
+    width: calc(100% - 5.3vw);
+    height: 24vw;
+    margin: auto;
+    margin-top: 2.7vw;
+  }
+  .ad-content img {
+    width: 100%;
+    height: 100%;
+  }
+  .ad-2 {
+    width: 100%;
+    height: 23.7vw;
+    background-image: url("../images/img/ad_2.png");
+    background-size: 100% 100%;
+  }
+  .buy-btn {
+    width: 24vw;
+    background-color: #38c566;
+    height: 5.3vw;
+    text-align: center;
+    font-size: 3.7vw;
+  }
+  .data-icon {
+    width: 2.7vw;
+    height: 2.9vw;
+  }
+  .cinema-list {
+    padding-left: 6.7vw;
+    margin-top: 4.7vw;
+  }
+  .cinema-label {
+    display: flex;
+  }
+  .cinema-label p {
+    font-size: 2.7vw;
+    color: #fff;
+    margin-left: 1.6vw;
+    padding: 0 0.7vw;
+    border-radius: 0.7vw;
+  }
+  .cinema-label p:first-child {
+    margin-left: 0;
+  }
+  .discount {
+    display: flex;
+  }
+  .discount div {
+    display: flex;
+    margin-left: 1.1vw;
+  }
+  .discount div p {
+    font-size: 3.2vw;
+    color: #fff;
+    padding: 0 0.7vw;
+  }
+  .discount div p:last-child {
+    margin-left: 0.7vw;
+  }
+  .discount div:first-child {
+    margin-left: 0;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+  }
+  .price img {
+    width: 4vw;
+    height: 4vw;
+  }
+  .time-list {
+    background-color: #404040;
+    width: 24vw;
+    height: 13.3vw;
+    border-radius: 1.1vw;
+    position: relative;
+    padding-left: 4.7vw;
+    box-sizing: border-box;
+    margin-top: 2.7vw;
+    margin-right: 2.7vw;
+  }
+  .time-list p {
+    line-height: 1.2;
+  }
+  .lan-a {
+    position: absolute;
+    width: 4vw;
+    top: 1.3vw;
+    left: 1.3vw;
+    line-height: 1.2;
+    writing-mode: vertical-rl;
+  }
+  .time-main {
+    overflow-x: scroll;
+  }
+  .scroll-content {
+    width: 133.3vw;
+  }

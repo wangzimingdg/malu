@@ -1,0 +1,245 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+body {
+    background-color: #000;
+}
+
+.mine-content {
+    width: 100%;
+    padding-bottom:  30.6667vw;
+}
+
+.mine-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 11.3vw;
+}
+.mine-header .scan {
+    width: 5.4667vw;
+    height: 5.0667vw;
+}
+.mine-header  .scan img {
+    width: 100%;
+    height: 100%;
+}
+.mine-header h4 {
+    font-size: 4.2667vw;
+    color: #fff;
+    font-weight: normal;
+}
+
+.mine-header .message {
+    display: flex;
+    align-items: center;
+    width: 13.3vw;
+}
+
+.mine-header .message img {
+    width: 5.5vw;
+    margin-left: .6667vw;
+}
+
+.mine-main {
+   
+    height: 40vw;
+    border-radius: 2vw;
+    margin: auto;
+    background-color: #f73171;
+    color: #fff;
+    /* padding: 4vw; */
+}
+
+.mine-main .user-info {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    padding-top: 2.7vw;
+}   
+
+.mine-main .user-info img {
+    width: 13.3333vw;
+    height: 13.3333vw;
+    border-radius: 1.3333vw;
+}
+.mine-main .user-info>div {
+    margin-left: 2.6667vw;
+}
+
+.mine-main .user-info .user-name,
+.mine-main .user-info .user-label {
+    display: flex;
+    align-items: center;
+}
+.mine-main .user-info .user-name p {
+    font-size: 4.5333vw;
+    margin:0 0 0 1.6vw;
+}
+.mine-main .user-info .user-name img {
+    width: 4.5vw;
+    height: 3.9vw;
+    margin-left: 1.2vw;
+}
+.mine-main .user-info .user-label p {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 2.7vw;
+    padding: 0.3vw 2vw;
+    font-size: 2.9vw;
+    letter-spacing: 0.3vw;
+    margin:1.6vw 0 0 1.6vw;
+}
+.mine-main ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin: 5.3vw 0;
+    padding: 0;
+}
+.mine-main ul li{
+    position: relative;
+    width: 25%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.mine-main ul li p:nth-child(2) {
+    font-size: 3.2vw;
+}
+.mine-main ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 1px;
+    height: 6.7vw;
+    background-color: #fff;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    height: 16vw;
+    background-color: #454545;
+    padding: 0 2.7vw;
+    color: #ffffff;
+    margin-top: 2.6667vw;
+}
+.member>img {
+    width: 6.1vw;
+    height: 5.6vw;
+}
+.member .member-mid {
+    margin-left: 2.6667vw;
+}
+.member .member-mid h4 {
+    font-size: 4vw;
+    font-weight: normal;
+}
+.member .member-mid p {
+    font-size: 3.2vw;
+    padding-top:1.5vw
+}
+.member .order-member {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.member .order-member p {
+    font-size: 3.4667vw;
+    margin-right: 1.6vw;
+}
+.right-icon {
+    width: 1.9vw;
+    height: 3.5vw;
+}
+
+.order {
+    height: 48vw;
+    padding: 2.7vw;
+    margin-top: 2.7vw;
+    background-color: #454545;
+    color: #fff;
+}
+.order header {
+    display: flex;
+    align-items: center;
+}
+.order header img:first-child {
+    width: 3.9vw;
+    height: 3.9vw;
+}
+.order header p {
+    font-size: 4vw;
+    margin-left: 2.6667vw;
+}
+.order .right-icon {
+    margin-left: auto;
+}
+.order-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.order-menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 4.7vw;
+    
+}
+.order-menu a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10.6667vw;
+    height: 10.6667vw;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.order-menu a div img {
+    width: 50%;
+}
+.order-menu a p {
+    font-size: 3.5vw;
+    margin-top: 1vw;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    padding: 2.7vw;
+    background-color: #454545;
+    margin-bottom: 1px;
+    color: #fff;
+}
+.mt-20 {
+    margin-top: 2.7vw;
+}
+.menu-list img:first-child {
+    width: 3.9vw;
+    height: 3.9vw;
+}
+.menu-list p {
+    font-size: 3.5vw;
+    margin-left: 2.6667vw;
+}
+.menu-list .right-icon {
+    margin-left: auto;
+}
+
+
+.footer a:nth-child(5) p{
+    color: #f73171;
+}

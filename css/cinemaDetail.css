@@ -1,0 +1,154 @@
+.footer {
+    width: 100vw;
+    height: 14.7vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .footer a {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .footer a img {
+    width: 4.3vw;
+    height: 4.3vw;
+  }
+  .footer a p {
+    font-size: 2.7vw;
+    margin-top: 1.6vw;
+  }
+  .cinema-detail-content {
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 18.7vw;
+  }
+  .cinema-detail-content .more-icon {
+    width: 5.6vw;
+    height: 1.3vw;
+    margin-left: 1.3vw;
+  }
+  .cinema-detail-content header {
+    width: calc(100% - 5.3vw);
+    height: 12vw;
+    margin: auto;
+  }
+  .cinema-intro {
+    width: calc(100% - 5.3vw);
+    margin: auto;
+    background-color: #343232;
+    border-radius: 0.7vw;
+    padding: 5.3vw;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .cinema-add {
+    position: absolute;
+    right: 8vw;
+    top: 4vw;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: #494747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cinema-add img {
+    width: 4.3vw;
+    height: 5.6vw;
+  }
+  .p-20 {
+    padding: 2.7vw 0;
+  }
+  .movie-list-b {
+    height: 40vw;
+    background-color: #302e2e;
+  }
+  .movie-img-b {
+    height: 33.3vw;
+    width: 24vw;
+    border-radius: 0.5vw;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 2.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transition: 300ms;
+    transform: scale(0.9);
+  }
+  .swiper-slide-active,
+  .swiper-slide-duplicate-active {
+    transform: scale(1.1);
+  }
+  .movie-title {
+    margin-top: 4vw;
+  }
+  .date-nav {
+    overflow: auto;
+    color: #fff;
+    font-size: 3.7vw;
+  }
+  .date-nav div {
+    width: 133.3vw;
+  }
+  .date-nav p {
+    width: 21.3vw;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+  }
+  .nav-active {
+    color: #f73171;
+    position: relative;
+  }
+  .nav-active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1.3vw;
+    width: 17.3vw;
+    height: 0.8vw;
+    background-color: #f73171;
+    border-radius: 1.3vw;
+  }
+  .dis-label {
+    background-color: #28a492;
+    font-size: 3.2vw;
+    height: 4.7vw;
+    color: #fff;
+    padding: 0 1.3vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.3vw;
+  }
+  .dis-info {
+    padding: 2.7vw;
+  }
+  .buy-btn {
+    background-image: linear-gradient(to right, #fe4f65, #ed8e44);
+    border: 0;
+    color: #fff;
+    font-size: 3.7vw;
+    border-radius: 2.7vw;
+    padding: 0.5vw 1.3vw;
+    align-self: center;
+  }
+  .select-list {
+    background-color: transparent;
+    padding: 1.3vw 2.7vw;
+  }
+  .select-list:nth-child(2n + 1) {
+    background-color: #343232;
+  }

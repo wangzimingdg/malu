@@ -1,0 +1,273 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+.cinima-content{
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 21.34vw;
+}
+.cinima-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 11.3vw;
+    margin: 0 auto;
+}
+
+.cinima-header .location {
+    display: flex;
+    align-items: center;
+    font-size: 3.9vw;
+    color: #fff;
+}
+
+.cinima-header .location img {
+    width: 2.4vw;
+    height: 1.5vw;
+    margin-left: .7vw;
+}
+.cinima-header h5 {
+    font-size: 4.2667vw;
+    color: #ffffff;
+    margin-right: 1.6vw;
+    font-weight: 400;
+}
+.cinima-header .search-box{
+    display: flex;
+    align-items: center;
+    width: 4.5vw;
+    height: 4.8vw;
+}
+.cinima-header .search-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.cinima-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vw;
+    margin: auto;
+    /* color: #fff; */
+    background-color: #393737;
+}
+
+.cinima-nav a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+.cinima-nav a p {
+    font-size: 3.4667vw;
+}
+.cinima-nav a img {
+    width: 1.7vw;
+    height: 1.2vw;
+    margin-left: 1.6vw;
+}
+
+.ad-content {
+    width: 95%;
+    height: 24vw;
+    margin: 0 auto;
+    margin-top: 2.7vw;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+ .swiper-slide {
+    text-align: center;
+    font-size: 2.4vw;
+    height: 100%;
+    background: #000000;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+ .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.3vw;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    width: 100%;
+}
+.list ul {
+   width: 100%;
+   list-style: none;
+   padding: 0;
+}
+.list .list-item {
+    width: 100%;
+    background-color: #2c2b2b;
+    border-radius: 0.3vw;
+    padding-bottom: 2.7vw;
+    margin-top: 1.6vw;
+}
+.list .list-item:first-child {
+    margin-top:3vw;
+}
+.list .list-item .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10.7vw;
+    padding: 0 2.7vw;
+    border-bottom: 1px solid #262525;
+}
+.list .list-item .item-header-fire {
+    display: flex;
+    align-items: center;
+}
+.list .list-item .item-header-fire img {
+    width: 2.7vw;
+    height: 3.5vw;
+}
+.list .list-item .item-header-fire p {
+    font-size: 3.4667vw;
+    color:#ffffff;
+    margin-left: 1.6vw;
+}
+.list .list-item .item-header a{
+    font-size: 3.2vw;
+    color: #fff;
+}
+
+.list .list-item .item-main {
+    padding: 0 2.7vw;
+    margin-top: 1.6vw;
+}
+
+.list .list-item .item-main .cinima-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cinima-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cinima-name>p {
+    font-size: 3.4667vw;
+    color: #e5e5e5;
+}
+.cinima-name .rank {
+    display: flex;
+    align-items: center;
+}
+.cinima-name .rank img {
+    width: 2.7vw;
+    height: 2.9vw; 
+    margin-right: 1.6vw;
+}
+.cinima-name .rank p {
+    font-size: 2.6667vw;
+    color: #b3b3b3;
+}
+.item-main .cinima-address {
+    font-size: 2.6667vw;
+    margin-top: 1.6vw;
+    color: #b3b3b3;
+}
+.cinima-label-box,
+.item-main .discount-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6vw;
+}
+.cinima-label-box .cinima-label {
+    display: flex;
+    width: 60%;
+}
+.cinima-label-box .cinima-label p {
+    font-size: 2.7vw;
+    color: #fff;
+    margin-left: 1.6vw;
+    padding: 0 0.7vw;
+    border-radius: 0.7vw;
+}
+.cinima-label-box .cinima-label p:first-child {
+    margin-left: 0;
+}
+.cinima-label-box .distance {
+    font-size: 2.6667vw;
+    color: #b3b3b3;
+}
+
+.item-main .discount-box .discount {
+    display: flex;
+}
+.discount div {
+    display: flex;
+    margin-left: 1.1vw;
+}
+.discount div:first-child {
+ margin-left: 0;
+}
+.discount div p {
+    font-size: 3.2vw;
+    color: #fff;
+    padding: 0 0.7vw;
+}
+.discount div p:last-child {
+    margin-left: .7vw;
+}
+
+.discount-box .price {
+    display: flex;
+    align-items: center;
+}
+.price img {
+    width: 4vw;
+    height: 4vw;
+}
+.price p {
+    font-size: 3.4667vw;
+    color: #f73171;
+}
+.price span {
+    font-size: 2.6667vw;
+}
+
+.footer a:nth-child(3) p{
+    color: #f73171;
+}
